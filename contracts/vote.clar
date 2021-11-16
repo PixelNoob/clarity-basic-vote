@@ -1,4 +1,4 @@
-;; Election Smart Contract modified from original @betosmith2000 code to include payment for casting a vote. 
+;; Election Smart Contract modified from original @betosmith2000 code to include payment for casting a vote.
 ;; The possibiltiy to close and re-open the vote has also been added
 
 ;; A simple vote smart contract for 2 candidates where
@@ -17,6 +17,14 @@
 ;; get price
 (define-read-only (get-price)
     (var-get price))
+
+;; get candidate1 read-only
+(define-read-only (get-candidate1)
+    (var-get candidate1))
+
+;; get candidate2 read-only
+(define-read-only (get-candidate2)
+  (var-get candidate2))
 
 ;; Public function to get current winner
 (define-public (get-winner)
