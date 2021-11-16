@@ -5,4 +5,4 @@ Basic smart contract to vote for 2 candidates.
 * Added posibility to close and re-open the vote
 * Added paying for voting (in the future a token could be created for this sole purpose).
 
-[Check_winner.py](check_winner.py) uses stack's API to check who is winning the election.
+[check_winner.py](check_winner.py) uses stack's API to check who is winning the election.
