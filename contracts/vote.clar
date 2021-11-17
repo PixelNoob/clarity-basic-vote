@@ -47,7 +47,7 @@
       (ok (var-get candidate2))))
 
 ;; Public function to open the vote
-(define-public (get-allow-vote)
+(define-public (allow-vote)
   (begin
     (var-set allowVote 1)
     (ok (var-get allowVote))))
